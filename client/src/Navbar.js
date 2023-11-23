@@ -5,7 +5,7 @@ import "./Navbar.css";
 
 function Navbar() {
   return (
-    <nav>
+    <nav className="nav-holder">
       <div>
         <Link to="/">
           <img src={logo} alt="Reel" className="logo" />
