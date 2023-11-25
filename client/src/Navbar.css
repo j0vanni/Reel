@@ -24,39 +24,57 @@
   font-size: 24px;
   text-decoration: none;
   color: black;
-  background-color: white;
+  background-color: #b3b3b3;
   border-radius: 5px;
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
+  user-select: none;
+  font-weight: bold;
+  transition: font-size 0.3s ease;
 }
 
 .nav-links a:hover {
-  background-color: #a69e8a;
+  background-color: white;
+  font-size: 26px;
 }
+  
+
 
 @media (max-width: 660px) {
   .nav-links a {
-    font-size: 20px;
+    font-size: 18px;
     padding-left: 30px;
     padding-right: 30px;
+  }
+
+  .nav-links a:hover {
+    font-size: 22px;
   }
 }
 
 @media (max-width: 450px) {
   .nav-links a {
-    font-size: 16px;
+    font-size: 12px;
     padding-left: 12px;
     padding-right: 12px;
+  }
+
+  .nav-links a:hover {
+    font-size: 16px;
   }
 }
 
 @media (max-width: 350px) {
   .nav-links a {
-    font-size: 10px;
+    font-size: 8px;
     padding-left: 6px;
     padding-right: 6px;
+  }
+
+  .nav-links a:hover {
+    font-size: 12px;
   }
 }
 
@@ -64,8 +82,9 @@
   display: inline-block;
   width: 6px;
   height: 6px;
-  background-color: white;
+  background-color: #b3b3b3;
   border-radius: 1px;
+  user-select: none;
 }
 
 .blocks-row-top {
