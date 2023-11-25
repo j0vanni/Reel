@@ -1,6 +1,6 @@
 .video-display {
+  height: calc(260px * 9 / 16);
   width: 260px;
-  height: 260px;
   background-color: #7d76605b;
   position: relative;
   overflow: hidden;
@@ -9,7 +9,7 @@
 
 .video-display img {
   width: 200px;
-  height: 200px;
+  height: calc(200px * 9 / 16);
   position: absolute;
   top: 2%;
   left: 49%;

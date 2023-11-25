@@ -59,3 +59,31 @@
     padding-right: 6px;
   }
 }
+
+.block {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background-color: white;
+  border-radius: 1px;
+}
+
+.blocks-row-top {
+  position: absolute;
+  top: 6px;
+  left: 0px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.blocks-row-bottom {
+  position: absolute;
+  top: 92px;
+  left: 0px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
