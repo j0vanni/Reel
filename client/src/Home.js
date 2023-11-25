@@ -67,9 +67,12 @@ const videos = [
 ];
 
 function Home() {
+  const screenWidth = window.innerWidth;
+
   return (
     <div>
       <Navbar />
+      <p>Screen Width: {screenWidth}px</p>
       <div className="thumbnail-display">
         {videos.map((video) => (
           <VideoGrid video={video} />
